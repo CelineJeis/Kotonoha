@@ -1,0 +1,4 @@
+export VCPKG_ROOT=/path/to/vcpkg
+cd buildsystems/android
+./gradlew :app:assembleExampleDebug
+./gradlew :app:assembleRealLiveDebug -Pabis=arm64-v8a
